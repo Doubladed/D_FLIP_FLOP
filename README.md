@@ -9,11 +9,11 @@ I wanted to try Synopsys VCS by compiling and simulating a simple D flip-flop, t
 ## Commands I used
 
 ```sh
-vcs -sverilog tb_dff.sv dff.v -debug_access+all
+vcs -sverilog RTL/tb_dff.sv RTL/dff.v -debug_access+all
 ./simv
 dve -vpd vcdplus.vpd
 ```
 
 ## D flip-flop simulation in Synopsys DVE
 
-![D flip-flop waveforms in Synopsys DVE](screenshot_tb_dff.png)
+![D flip-flop waveforms in Synopsys DVE](Screenshot/screenshot_tb_dff.png)
