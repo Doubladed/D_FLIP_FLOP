@@ -1,0 +1,15 @@
+# Synopsys VCS build products
+/csrc/
+/simv
+/simv.daidir/
+/simv.vdb/
+
+# Simulation waveforms and logs
+*.vpd
+*.vcd
+*.fsdb
+*.log
+/ucli.key
+
+# DVE viewer sessions
+/DVEfiles/
